@@ -1,4 +1,4 @@
- #include <stdio.h>
+#include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 
@@ -14,7 +14,7 @@ void CadastrarNome(char nomes[10][40]) // Cadastrar nomes
 {
     int i,j;
     system("cls");
-printf("Listagem de nomes\n\n");
+	printf("Listagem de nomes\n\n");
     for (i = 0; i <= 9; i++) {
     	printf("Digite o %2do. nome: ", i + 1);
         fflush(stdin);
@@ -31,7 +31,7 @@ void PesquisarNome(char nomes[10][40]) // Pesquisar nomes
 {
     int i, acha;
     char PESQ[40], RESP, temp[40];
-system("cls");
+  	system("cls");
 	printf("\nPesquisa sequencial de nomes\n\n");
 
     RESP = 'S';
@@ -67,7 +67,7 @@ system("cls");
 
 
 
-void OrdenarNome(char nomes[10][40]) // Ordenar nomes em ordem alfabética
+void OrdenarNome(char nomes[10][40]) // Ordenar nomes em ordem alfabÃ©tica
 {
     int i, j, x[40];
 system("cls");
@@ -90,7 +90,7 @@ system("cls");
 }
 
 
-int main(void) // Função principal
+int main(void) // FunÃ§Ã£o principal
 {
     char nomes[10][40];
     int cadastrados = 0;
